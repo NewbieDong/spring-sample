@@ -13,6 +13,8 @@ class RetryServiceTests @Autowired constructor(private val retryService: RetrySe
 
     @Test
     internal fun `test greeting retry`() {
-        retryService.greeting("Kotlin")
+//        retryService.greeting("Kotlin")
+//        retryService.greetingB(B("B", "A"))
+        retryService.greetingC(C("C", "A"))
     }
 }
